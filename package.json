@@ -1,8 +1,5 @@
 {
   "privacy": "public",
-  "web": {
-    "lang": "pt-br"
-  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

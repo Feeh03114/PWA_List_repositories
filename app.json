@@ -1,0 +1,20 @@
+{
+    "name": "App listagem de repositóios",
+    "displayName": "App listagem de repositóios",
+    "expo": {
+        "name": "App listagem de repositóios",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "web": {
+            "lang": "pt-br"
+        },
+        "splash": {
+            "backgroundColor": "#fff",
+            "resizeMode": "contain"
+        },
+        "version": "1.0.0"
+    }
+}
