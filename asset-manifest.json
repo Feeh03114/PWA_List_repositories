@@ -4,17 +4,17 @@
     "app.js.map": "/expo-gh-pages/static/js/app.50945e77.chunk.js.map",
     "runtime~app.js": "/expo-gh-pages/static/js/runtime~app.57d3d678.js",
     "runtime~app.js.map": "/expo-gh-pages/static/js/runtime~app.57d3d678.js.map",
-    "static/js/2.4f35e242.chunk.js": "/expo-gh-pages/static/js/2.4f35e242.chunk.js",
-    "static/js/2.4f35e242.chunk.js.map": "/expo-gh-pages/static/js/2.4f35e242.chunk.js.map",
+    "static/js/2.02366ac9.chunk.js": "/expo-gh-pages/static/js/2.02366ac9.chunk.js",
+    "static/js/2.02366ac9.chunk.js.map": "/expo-gh-pages/static/js/2.02366ac9.chunk.js.map",
     "index.html": "/expo-gh-pages/index.html",
     "manifest.json": "/expo-gh-pages/manifest.json",
     "serve.json": "/expo-gh-pages/serve.json",
     "service-worker.js.map": "/expo-gh-pages/service-worker.js.map",
-    "static/js/2.4f35e242.chunk.js.LICENSE.txt": "/expo-gh-pages/static/js/2.4f35e242.chunk.js.LICENSE.txt"
+    "static/js/2.02366ac9.chunk.js.LICENSE.txt": "/expo-gh-pages/static/js/2.02366ac9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.57d3d678.js",
-    "static/js/2.4f35e242.chunk.js",
+    "static/js/2.02366ac9.chunk.js",
     "static/js/app.50945e77.chunk.js"
   ]
 }
