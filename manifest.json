@@ -1,0 +1,7 @@
+{
+  "display": "standalone",
+  "lang": "en",
+  "name": "Test_pwa",
+  "short_name": "Test_pwa",
+  "start_url": "/?utm_source=web_app_manifest"
+}
