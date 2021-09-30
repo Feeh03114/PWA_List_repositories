@@ -1,5 +1,8 @@
 {
-  "homepage": "http://feeh03114.github.io/expo-gh-pages",
+  "privacy": "public",
+  "web": {
+    "lang": "pt-br"
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
