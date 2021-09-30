@@ -20,7 +20,7 @@ module.exports = async function (env, argv) {
           /\.map$/,
           /asset-manifest\.json$/,
           /LICENSE/,
-          /\.js\.gz$/,
+          /\.js\.gz\.ts\.tsx\$/,
           // Exclude all apple touch and chrome images because they're cached locally after the PWA is added.
           /(apple-touch-startup-image|chrome-icon|apple-touch-icon).*\.png$/,
         ],
