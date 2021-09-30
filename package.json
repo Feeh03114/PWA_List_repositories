@@ -1,5 +1,5 @@
 {
-  "privacy": "public",
+  "main": "App.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -47,6 +47,9 @@
     "workbox-strategies": "^6.1.5",
     "workbox-streams": "^6.1.5",
     "workbox-webpack-plugin": "^6.1.5"
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "private": true
 }

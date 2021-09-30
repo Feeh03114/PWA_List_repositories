@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { TextInput, TouchableOpacity, Text } from "react-native";
+import {  TouchableOpacity, Text } from "react-native";
 import { useAuth } from "../../hooks/auth";
-import { api } from "../../services/api";
 import { Container,ViewLogin, ViewCadatro, InputEmail, InputPassword } from "./styled";
 
 export function Welcome(){
@@ -9,7 +8,7 @@ export function Welcome(){
     const [password_login, setPassword_login] = useState('')
     const [email_cadastro, setEmail_cadastro] = useState('');
     const [password_cadastro, setPassword_cadastro] = useState('')
-    const { signIn } = useAuth();
+    const { signIn, CreateUser } = useAuth();
 
 
     async function login_user(){
@@ -22,7 +21,14 @@ export function Welcome(){
         )
             }
     async function create_user(){
-       
+        CreateUser(
+            {
+                email: email_cadastro,
+                password: password_cadastro,
+            }
+        )
+        setEmail_cadastro("");
+        setPassword_cadastro("");
     }
 
     return(
@@ -73,6 +79,9 @@ export function Welcome(){
                 borderRadius: 50, paddingLeft: 10, paddingRight:10, 
                 paddingBottom: 5, paddingTop: 5}}
                     onPress={()=>{
+                        if(password_cadastro.length < 6){
+                            alert("Senha com igual ou maior de 6 caracter")
+                        }
                         if(email_cadastro && (password_cadastro.length >= 6)){
                             create_user();
                         }
