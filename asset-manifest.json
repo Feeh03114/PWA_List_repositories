@@ -1,20 +1,20 @@
 {
   "files": {
-    "app.js": "/expo-gh-pages/static/js/app.50945e77.chunk.js",
-    "app.js.map": "/expo-gh-pages/static/js/app.50945e77.chunk.js.map",
-    "runtime~app.js": "/expo-gh-pages/static/js/runtime~app.57d3d678.js",
-    "runtime~app.js.map": "/expo-gh-pages/static/js/runtime~app.57d3d678.js.map",
-    "static/js/2.02366ac9.chunk.js": "/expo-gh-pages/static/js/2.02366ac9.chunk.js",
-    "static/js/2.02366ac9.chunk.js.map": "/expo-gh-pages/static/js/2.02366ac9.chunk.js.map",
-    "index.html": "/expo-gh-pages/index.html",
-    "manifest.json": "/expo-gh-pages/manifest.json",
-    "serve.json": "/expo-gh-pages/serve.json",
-    "service-worker.js.map": "/expo-gh-pages/service-worker.js.map",
-    "static/js/2.02366ac9.chunk.js.LICENSE.txt": "/expo-gh-pages/static/js/2.02366ac9.chunk.js.LICENSE.txt"
+    "app.js": "/PWA_List_repositories/static/js/app.c0f73a18.chunk.js",
+    "app.js.map": "/PWA_List_repositories/static/js/app.c0f73a18.chunk.js.map",
+    "runtime~app.js": "/PWA_List_repositories/static/js/runtime~app.e40b927a.js",
+    "runtime~app.js.map": "/PWA_List_repositories/static/js/runtime~app.e40b927a.js.map",
+    "static/js/2.7533e6c9.chunk.js": "/PWA_List_repositories/static/js/2.7533e6c9.chunk.js",
+    "static/js/2.7533e6c9.chunk.js.map": "/PWA_List_repositories/static/js/2.7533e6c9.chunk.js.map",
+    "index.html": "/PWA_List_repositories/index.html",
+    "manifest.json": "/PWA_List_repositories/manifest.json",
+    "serve.json": "/PWA_List_repositories/serve.json",
+    "service-worker.js.map": "/PWA_List_repositories/service-worker.js.map",
+    "static/js/2.7533e6c9.chunk.js.LICENSE.txt": "/PWA_List_repositories/static/js/2.7533e6c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime~app.57d3d678.js",
-    "static/js/2.02366ac9.chunk.js",
-    "static/js/app.50945e77.chunk.js"
+    "static/js/runtime~app.e40b927a.js",
+    "static/js/2.7533e6c9.chunk.js",
+    "static/js/app.c0f73a18.chunk.js"
   ]
 }
