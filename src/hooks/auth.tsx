@@ -42,13 +42,13 @@ import api  from '../services/api';
 
 function AuthProvider({ children }: AuthProviderProps) {
     const [data, setData] = useState<AuthState>({} as AuthState);
-    /*useEffect(() => {
+    /* useEffect(() => {
          async function loadStoragedData(): Promise<void> {
           const [token] = await AsyncStorage.multiGet([
             '@test:token',
           ]);
     
-          if (token[1] /* && refreshToken[0] ) {
+          if (token[1]   && refreshToken[0]  ) {
             setData({
               access_token: token[1],
              // refreshToken: JSON.parse(refreshToken[0]),
