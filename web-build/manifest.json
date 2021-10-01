@@ -1,0 +1,8 @@
+{
+  "background_color": "#fff",
+  "display": "standalone",
+  "lang": "pt-br",
+  "name": "App listagem de repositóios",
+  "short_name": "App listagem de repositóios",
+  "start_url": "/?utm_source=web_app_manifest"
+}
